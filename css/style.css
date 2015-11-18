@@ -15,7 +15,22 @@
 span.number, span.suit {
     text-align: center;
     width: 100%;
-    display: block;
+    display: none;
     padding-top: 8px;
+}
+
+.show {
+    display: block !important;
+}
+
+.scores, #messages {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.player {
+    display: block;
+    padding: 14px;
 }
 
